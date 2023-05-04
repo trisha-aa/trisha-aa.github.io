@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	width:80%;
+	margin-left:auto;
+	margin-right:auto;
+	font-family:helvetica,arial,sans-serif;
+	background-color:lightslategray;
+}
+#header{
+	background-color:lightgrey;
+	color:darkslategray;
+	text-align:center;
+}
+nav ul { 
+	list-style-type:none;
+	overflow:hidden;
+	background-color:lightgrey;
+	line-height:40px;
+	margin:0;
+	padding:0;
+}
+nav li {
+	/*float: left; */
+	display:inline;
+}
+nav a { 
+	colour:white;
+	text-align:center;
+	padding:14px 16px;
+	text-decoration:none;
+}
+
+
+
+
+
+
+
