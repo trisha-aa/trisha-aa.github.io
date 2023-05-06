@@ -4,8 +4,11 @@ body {
 	width:80%;
 	margin-left:auto;
 	margin-right:auto;
-	font-family:helvetica,arial,sans-serif;
-	background-color:lightsteelblue;
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	background-color: lightsteelblue;
+}
+div main{
+	width:90%
 }
 #header{
 	background-color:lightgrey;
@@ -30,7 +33,9 @@ nav a {
 	padding:14px 16px;
 	text-decoration:none;
 }
-
+div{
+	color: darkslateblue;
+}
 
 
 
