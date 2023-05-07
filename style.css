@@ -5,14 +5,14 @@ body {
 	margin-left:auto;
 	margin-right:auto;
 	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
-	background-color: lightsteelblue;
+    background-image: url(../../Unnamed%20Site%202/extra%20github%20stuff/star%20background.jpg);
 }
 div main{
 	width:90%
 }
 #header{
 	background-color:lightgrey;
-	color:darkslategray;
+	color:cadetblue;
 	text-align:center;
 }
 nav ul { 
@@ -34,7 +34,7 @@ nav a {
 	text-decoration:none;
 }
 div{
-	color: darkslateblue;
+	color: lightslategray;
 }
 
 
