@@ -7,18 +7,16 @@ body {
 	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
     background-image: url(../../Unnamed%20Site%202/extra%20github%20stuff/star%20background.jpg);
 }
-div main{
-	width:90%
-}
 #header{
-	background-color:lightgrey;
+	background-color:lightslategray;
 	color:cadetblue;
 	text-align:center;
+	padding: 5px;
 }
 nav ul { 
 	list-style-type:none;
 	overflow:hidden;
-	background-color:lightgrey;
+	background-color:lightslategray;
 	line-height:40px;
 	margin:0;
 	padding:0;
@@ -33,10 +31,21 @@ nav a {
 	padding:14px 16px;
 	text-decoration:none;
 }
-div{
-	color: lightslategray;
+nav .active{
+	background-color:aliceblue;
+	color:midnightblue;
 }
+nav a:hover{
+	background-color:aliceblue;
+	color:midnight;
+}
+#main{
+	background-color:midnightblue;color:azure;
 
+}
+div{
+	color: 
+}
 
 
 
