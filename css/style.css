@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	width:80%;
+	margin-left:auto;
+	margin-right:auto;
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+    background-image:url("../../Unnamed Site 2/star background.jpg");
+	color:azure;
+}
+#header{
+	background-color:lightslategray;
+	color:cadetblue;
+	text-align:center;
+	padding: 5px;
+}
+nav ul { 
+	list-style-type:none;
+	overflow:hidden;
+	background-color:lightslategray;
+	color: aliceblue;
+	line-height:40px;
+	margin:0;
+	padding:0;
+}
+nav li {
+	/*float: left; */
+	display:inline;
+}
+nav a { 
+	colour:white;
+	text-align:center;
+	padding:14px 16px;
+	text-decoration:none;
+}
+nav .active{
+	background-color:aliceblue;
+	color:midnightblue;
+}
+nav a:hover{
+	background-color:aliceblue;
+	color:midnight;
+}
+#main{
+	color:azure;
+
+}
+div{
+	background-color: midnightblue;
+	color:azure;
+}
+
+
+
+
+
