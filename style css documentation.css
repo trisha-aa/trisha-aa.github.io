@@ -17,3 +17,18 @@ h2{
 div{
 	color:azure
 }	
+
+.shortcut{
+	background-color: Azure;
+	color:darkslategray;
+	height:100px;
+	width:200px;
+	padding:20px 35px;
+	padding-bottom:50px;
+	background-color:lightslategray;
+	border-radius: 20px;
+	margin:20px;
+	position: relative;
+	overflow:hidden;
+	text-align: center;
+}
