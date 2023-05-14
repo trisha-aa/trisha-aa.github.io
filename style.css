@@ -5,7 +5,7 @@ body {
 	margin-left:auto;
 	margin-right:auto;
 	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
-    background-image: url(../../Unnamed%20Site%202/extra%20github%20stuff/star%20background.jpg);
+    background-image:url("../../Unnamed Site 2/star background.jpg");
 	color:azure;
 }
 #header{
@@ -42,7 +42,7 @@ nav a:hover{
 	color:midnight;
 }
 #main{
-	background-color:midnightblue;color:azure;
+	color:azure;
 
 }
 div{
