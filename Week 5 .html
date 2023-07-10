@@ -8,63 +8,72 @@
 
 <body>
 	<div id="Week 5">
-	<h2>Week 5 - </h2>
+	<h2>Week 5 - Laser Cutting </h2>
+		<p> This week we covered laser cutting. Using the same Fusion 360 software, our exercises involved creating things for laser cutting.</p>
 	</div>
 	
+	<div>
 	<h3>Exercise 9 - Keychain with FabLab Logo</h3>
-	<p></p>
-	<img src="name tag/Screenshot 2023-07-09 205959.png" width="850" alt=""/>
-	<p></p>
-	<img src="name tag/Screenshot 2023-07-09 210007.png" width="850" alt=""/>
-	<p></p>
-	
+	<p>The first exercise this week is to make a keychain with the FabLab logo.This exercise was not that difficult as it is similar to the name tag done , with a few minor changes here and there.</p>
+	<img src="name tag/Screenshot 2023-07-10 220214.png" width="850" alt=""/>
+	<p>The first step was to create the keychain itself, using sketch and with lines and circles. Also not forgetting the offset tool .</p>
+	<img src="name tag/Screenshot 2023-07-09 205334.png" width="850" alt=""/>
+	<p>Then , after which i used the extrude tool to create this solid base.</p>
+	<img src="name tag/Screenshot 2023-07-10 215811.png" width="850" alt=""/>
+	<p>Then , I used the sketch tool to create a border and inserted the SVG of the FabLab logo. I followed a video to figure out how to add the logo, I'll attach the video at the end of the exercise.</p>
+	<img src="name tag/Screenshot 2023-07-10 213525.png" width="850" alt=""/>
+	<p>Then i just added the FabLab logo as a text next to the logo to form the final product. Then, saving the file as a .DXF would enable me to send it for laser cutting.</p>
+	<img src="name tag/Screenshot 2023-07-10 215138.png" width="850" alt=""/>
+		<p>Here is the video that helped me :</p>
+		<a href="https://www.youtube.com/watch?v=SOJcpSP8C1s">TRACING TIPS</a>
 	
 	<h3>Exercise 10 - Laptop Stand</h3>
-	<p></p>
+	<p> This exercise was definitely more challenging but slowly , I managed to get it done.</p>
+	<img src="computer stand/Screenshot 2023-07-10 220226.png" width="850" alt=""/>
+	<p>First, ii created a new component and drew the rough shape for the laptop stand in sketch.</p>
 	<img src="computer stand/Screenshot 2023-06-09 005917.png" width="850" alt=""/>
-	<p></p>
+	<p>Next, I applied constraints to form the parallel lines. </p>
 	<img src="computer stand/Screenshot 2023-06-09 010039.png" width="850" alt=""/>
-	<p></p>
+	<p>Then, using the sketch dimension tool , I create the dimensions as seen in the image below.</p>
 	<img src="computer stand/Screenshot 2023-06-09 010237.png" width="850" alt=""/>
-	<p></p>
+	<p>The next step was to create a user parameter, I labelled it a t for thickness and made it 0.25 inches. Then I also created the legwidth parameter. </p>
 	<img src="computer stand/Screenshot 2023-06-09 010614.png" width="850" alt=""/>
-	<p></p>
+	<p>After that, I extruded the component by keying in the user parameter as t. </p>
 	<img src="computer stand/Screenshot 2023-06-09 010654.png" width="850" alt=""/>
-	<p></p>
+	<p>To prevent any sharp edges, I then used fillet to smoothen the sides.</p>
 	<img src="computer stand/Screenshot 2023-06-09 010805.png" width="850" alt=""/>
-	<p></p>
+	<p>This is how it looks right now.</p>
 	<img src="computer stand/Screenshot 2023-06-09 011035.png" width="850" alt=""/>
-	<p></p>
+	<p>Then i needed to have two of this component so i used copy and paste in order to form this.</p>
 	<img src="computer stand/Screenshot 2023-06-09 012055.png" width="850" alt=""/>
-	<p></p>
+	<p>Then i moved them using joint and set the offset as legwidth which is the user parameter I set before.Then this is what i got. </p>
 	<img src="computer stand/Screenshot 2023-06-09 012501.png" width="850" alt=""/>
-	<p></p>
+	<p>After this, I created a new component for the top of the laptop stand. I create a new sketch and do a rough sketch.</p>
 	<img src="computer stand/Screenshot 2023-06-09 013434.png" width="850" alt=""/>
-	<p></p>
+	<p>Again, i use sketch dimension in order to have the correct dimensions i want as seen in the drawing below.</p>
 	<img src="computer stand/Screenshot 2023-06-09 013440.png" width="850" alt=""/>
-	<p></p>
+	<p>So after this step, i add in a tab by using the rectangle tool and dimension it as well.</p>
 	<img src="computer stand/Screenshot 2023-06-09 013701.png" width="850" alt=""/>
-	<p></p>
+	<p>Using the mirror tool and some lines, I make 3 more copies of the tab i drew on the corners of the top of the laptop stand.</p>
 	<img src="computer stand/Screenshot 2023-06-09 014122.png" width="850" alt=""/>
-	<p></p>
+	<p>Of course , then i extrude downwards by keying in negative t.</p>
 	<img src="computer stand/Screenshot 2023-06-09 014222.png" width="850" alt=""/>
-	<p></p>
+	<p>So by clicking modify and cutting one part from the other, it forms this as seen below. This way when the pieces are cut they are able to fit together nicely.  </p>
 	<img src="computer stand/Screenshot 2023-06-09 014703.png" width="850" alt=""/>
-	<p></p>
+	<p>Then, I created a new component for the supports . So, first I created a new sketch plane by offsetting the existing plane.</p>
 	<img src="computer stand/Screenshot 2023-06-09 015337.png" width="850" alt=""/>
-	<p></p>
+	<p>Then I need to see the intersection plane of these two bodies in order to draw a support.</p>
 	<img src="computer stand/Screenshot 2023-06-09 015347.png" width="850" alt=""/>
-	<p></p>
+	<p>So, I am able to draw in the supports here as seen in orange, with the accurate dimensionings and all.</p>
 	<img src="computer stand/Screenshot 2023-06-09 015552.png" width="850" alt=""/>
-	<p></p>
+	<p>Of course again , then I need to extrude this part by keying in the user parameter t .</p>
 	<img src="computer stand/Screenshot 2023-06-09 015726.png" width="850" alt=""/>
-	<p></p>
-	<img src="computer stand/Screenshot 2023-06-09 015827.png" width="850" alt=""/>
-	<p></p>
+	<p>Okay, then I use a mid plane and mirror the support to create two supports , also i didn't forget to cut the components as well.</p>
 	<img src="computer stand/Screenshot 2023-06-09 015859.png" width="850" alt=""/>
-	<p></p>
+	<p>So this is how the laptop stand looks like after I am done. </p>
 	<img src="computer stand/Screenshot 2023-06-09 020728.png" width="850" alt=""/>
-	
-	
+	<p> I actually required alot of help so following along this video did help me:</p>
+		<a href="https://www.youtube.com/watch?v=7riGolu7BpA&t=1068s">LAPTOP STAND TUTORIAL</a>
+	</div>
 </body>
 </html>
